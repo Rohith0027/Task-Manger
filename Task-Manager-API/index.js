@@ -1,7 +1,7 @@
 const app = require("./app");
 const mongoose = require("mongoose");
 const port = 5000;
-const API = "mongodb+srv://root:root123@cluster0.hzhvoqr.mongodb.net/TaskManager?retryWrites=true&w=majority"
+const API = "mongodb+srv://task:rohithvamshi@cluster0.rir7tqr.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.set('strictQuery', false);
 
