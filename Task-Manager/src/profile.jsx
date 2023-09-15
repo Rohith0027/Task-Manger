@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import ToastContext from "./context/ToastContext";
 import ChnageImagePrompt from "./ChangeImagePrompt";
-const API = "https://task-manager-api-tsgq.onrender.com"
+const API = "https://task-manager-0808.onrender.com"
 
 const Profile = () => {
     const { toast } = useContext(ToastContext)

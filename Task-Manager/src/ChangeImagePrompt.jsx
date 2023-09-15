@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useContext } from "react";
 import "./page.css"
 import ToastContext from "./context/ToastContext";
-const API = "https://task-manager-api-tsgq.onrender.com"
+const API = "https://task-manager-0808.onrender.com"
 const ChnageImagePrompt = ({ closePrompt }) => { // got the Id and Close Prompt func as prop
     // console.log(Id)
     const { toast } = useContext(ToastContext)

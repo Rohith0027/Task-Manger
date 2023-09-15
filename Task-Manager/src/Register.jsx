@@ -3,7 +3,7 @@ import axios from "axios";
 import ToastContext from "./context/ToastContext"
 import { useNavigate } from "react-router-dom"
 import spinner from "./assets/Spinner-0.5s-164px.svg";
-const API = "https://task-manager-api-tsgq.onrender.com"
+const API = "https://task-manager-0808.onrender.com"
 const Register = () => {
 	const navigate = useNavigate("")
 	const { toast } = useContext(ToastContext)

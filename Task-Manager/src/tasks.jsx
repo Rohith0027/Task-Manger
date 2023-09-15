@@ -8,7 +8,7 @@ import { useState, useContext, useEffect } from "react"
 import { useNavigate } from "react-router-dom";
 import ToastContext from "./context/ToastContext";
 import Footer from "./footer";
-const API = "https://task-manager-api-tsgq.onrender.com"
+const API = "https://task-manager-0808.onrender.com"
 
 const Tasks = () => {
     const [data, setData] = useState({
